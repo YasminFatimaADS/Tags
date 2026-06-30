@@ -1,0 +1,51 @@
+
+/* para adicionar um comentario coloque dessa forma */
+
+/*
+
+font-size : usamos para aumentar ou diminuir o tamanho da fonte, estamos usando px para pixels, mas da para usar pt tambem
+
+font-family : usamos para alterar a fonte das letras do conteúdo
+
+color : usamos para mudar a cor do objeto do qual queremos mudar a cor, pode ser um h1, um body ou até um div
+
+letter-spacing : usamos para aumentar ou diminuir o espaçamento entre as letras
+
+line-height : usamos para aumentar ou diminuir o espaçamento entre as linhas
+
+padding : espaço interno entre o conteudo e a borda do elemento
+
+border : Linha que envolve o elemento, delimitando sua borda. geralmente usamos assim "border: tamanho solid color";
+
+margin : Espaço externo ao redor do elemento, separando outros.
+
+border-radius : defini a curvatura da borda
+
+background-color : defini uma cor de fundo
+
+text-decoration : altera os efeitos dos textos
+
+
+font-weight : altera a expessura da fonte, deixando-a mais fina ou mais grossa
+
+
+Tag de reset
+*{
+margin: 0;
+padding: 0;
+}
+
+
+@font-face : um metodo para situações onde baixamos a fonte para usala
+@font-face {
+    font-family:"nome da fonte" ;
+    src: url("local onde esta a fonte baixada")
+    format("formato da fonte");
+    fonte-weight: expessura da fonte;
+    font-style : estilo da fonte (italico, negrito ou normal);
+    font-display: swap ( caso de problema ao carregar no navegador);
+}
+
+
+
+*/
